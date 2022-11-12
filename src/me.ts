@@ -123,7 +123,7 @@ export const me = {
           uri: "https://github.com/JuniorBaez-ux/nextjs-blog.git",
         },
       ],
-      image: "/assets/dad.png",
+      //image: "/assets/dad.png",
     },
 
     // {
