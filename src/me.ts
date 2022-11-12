@@ -107,28 +107,25 @@ export const me = {
     // },
 
 
-    // {
-    //   name: "Dad API",
-    //   description: "A REST API to get dad jokes and pickup lines",
-    //   contribution:
-    //     "I built the entire API from scratch using Node.js and Express and deployed it on Google Cloud Run.",
-    //   technologies: ["Node.js", "Express", "Google Cloud", "Docker"],
-    //   links: [
-    //     {
-    //       name: "Joke Endpoint",
-    //       uri: "https://dad.croissant.one/api/joke",
-    //     },
-    //     {
-    //       name: "Pickup Line Endpoint",
-    //       uri: "https://dad.croissant.one/api/pickup",
-    //     },
-    //     {
-    //       name: "Github",
-    //       uri: "https://github.com/arhammusheer/dad-api",
-    //     },
-    //   ],
-    //   image: "/assets/dad.png",
-    // },
+    {
+      name: "Next.js Sample Website",
+      description: "Basic website built with Next.js",
+      contribution:
+        "This is a website made to showcase the basic concepts of using Next.js in a project.",
+      technologies: ["Node.js", "Next.js", "CSS", "React", "JavaScript"],
+      links: [
+        {
+          name: "Live Demo",
+          uri: "https://nextjs-blog-juniorbaez-ux.vercel.app",
+        },
+        {
+          name: "Source Code",
+          uri: "https://github.com/JuniorBaez-ux/nextjs-blog.git",
+        },
+      ],
+      image: "/assets/dad.png",
+    },
+
     // {
     //   name: "Loud Noises",
     //   description:
