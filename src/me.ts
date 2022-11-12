@@ -27,11 +27,11 @@ import { IMe } from "./me.interface";
 
 export const me = {
   name: "Junior Baez",
-  subtitle: "Computer and systems engineering Student & Backend Developer",
+  subtitle: "Computer and systems engineering Student & Backend Web Developer",
   tagline:
-    "I am a computer engineering student who loves to build software to create fun experiences.",
+    "I am a computer engineering student who loves to build software to create fun experiences and to challenge myself.",
   about:
-    "Computer Engineering student building systems for my personal experience. I love making projects in languages that I find interesting. Checkout some of my most liked ones below.",
+    "Computer Engineering student who like to build systems for my personal experience and learning. I love making projects in languages that I find interesting. Checkout some of my most liked ones below.",
   location: "San Francisco de Macoris, Prov. Duarte, Republica Domincana",
   image: "/assets/juniorbaez.jpeg",
   education: [
