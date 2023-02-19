@@ -13,6 +13,7 @@ import {
   SiHtml5,
   SiJava,
   SiJavascript,
+  SiJquery,
   SiKotlin,
   SiKubernetes,
   SiMicrosoftsqlserver,
@@ -53,6 +54,7 @@ export const me = {
         "My principal activity was the maintenance and develop of various functionalities for different web pages.",
         "Pair programming with a Sr. Full-Stack-Developer.",
         "Implementation of functionalities in C# and JavaScript.",
+        "Maintenance of legacy jQuery code in the project.",
         "Consuming API to develop clean and functional code.",
         "Implementation of store procedures and various functionalities in SQL.",
         "Implementation of layouts in HTML and CSS.",
@@ -61,8 +63,41 @@ export const me = {
         "Work on different tasks with Kanban methodology."
       ],
     },
+    {
+      company: "Thryv",
+      location: "Remote",
+      position: "Pager / QA Specialist",
+      duration: "January 2023 - Ongoing",
+      bullets: [
+        "My principal activity is the quality assessment process of the yellow pages distributed in the US.",
+        "Usage of the JIRA ticket system to report errors.",
+        "Using SQL and MS/SQL server to make consultations and modifications in the database.",
+        "Using Excel to analyze and filter high amounts of data.",
+        "Attend meetings with Agile methodologies.",
+        "Work on different tasks with Kanban methodology."
+      ],
+    }
   ],
   projects: [
+    {
+      name: "Library-Project",
+      description: "Web based library management system with most of the functionalities of an online library",
+      contribution:
+        "This project was made with the objective to test my NodeJs knowledge whwn building projects.",
+      technologies: ["HTML", "CSS", "Pug,js", "Bootstrap", "NodeJS", "ExpressJS", "MongoDB", "Mongoose"],
+      links: [
+        {
+          name: "Live Demo",
+          uri: "https://library-form-practice-production.up.railway.app/catalog/",
+        },
+        {
+          name: "Source Code",
+          uri: "https://github.com/JuniorBaez-ux/Library-Form-Practice.git",
+        },
+      ],
+       image: "/assets/book.png",
+    },
+
     {
       name: "Prestamos JDS SRL",
       description: "A desktop APP to manage loans",
@@ -75,56 +110,27 @@ export const me = {
           uri: "https://github.com/JuniorBaez-ux/Proyecto-Final-AP1",
         },
       ],
-      // image: "/assets/croissant.svg",
+       image: "/assets/money.png",
     },
-
 
     // {
-    //   name: "Library-Project",
-    //   description:
-    //     "A website with the basic funcitionalities of an online library",
+    //   name: "Next.js Sample Website",
+    //   description: "Basic website built with Next.js",
     //   contribution:
-    //     "I built this backend application with server side rendering and authentication in mind to practice these important concepts.",
-    //   technologies: [
-    //     "Node.js",
-    //     "Express",
-    //     "MongoDB",
-    //     "EJCS",
-    //     "Docker",
-    //     "OAuth2",
-    //   ],
+    //     "This is a website made to showcase the basic concepts of using Next.js in a project.",
+    //   technologies: ["Node.js", "Next.js", "CSS", "React", "JavaScript"],
     //   links: [
-    //     // {
-    //     //   name: "Website",
-    //     //   uri: "https://getaudioshelf.com",
-    //     // },
     //     {
-    //       name: "GitHub",
-    //       uri: "https://play.google.com/store/apps/details?id=com.audioshelfapp",
+    //       name: "Live Demo",
+    //       uri: "https://nextjs-blog-juniorbaez-ux.vercel.app",
+    //     },
+    //     {
+    //       name: "Source Code",
+    //       uri: "https://github.com/JuniorBaez-ux/nextjs-blog.git",
     //     },
     //   ],
-    //   image: "https://content.getaudioshelf.com/logo.png",
+    //   //image: "/assets/dad.png",
     // },
-
-
-    {
-      name: "Next.js Sample Website",
-      description: "Basic website built with Next.js",
-      contribution:
-        "This is a website made to showcase the basic concepts of using Next.js in a project.",
-      technologies: ["Node.js", "Next.js", "CSS", "React", "JavaScript"],
-      links: [
-        {
-          name: "Live Demo",
-          uri: "https://nextjs-blog-juniorbaez-ux.vercel.app",
-        },
-        {
-          name: "Source Code",
-          uri: "https://github.com/JuniorBaez-ux/nextjs-blog.git",
-        },
-      ],
-      //image: "/assets/dad.png",
-    },
 
     // {
     //   name: "Loud Noises",
@@ -144,16 +150,32 @@ export const me = {
   ],
   skills: [
     {
-      name: "JavaScript",
-      icon: SiJavascript,
-    },
-    {
       name: "HTML",
       icon: SiHtml5,
     },
     {
       name: "CSS",
       icon: SiCss3,
+    },
+    {
+      name: "JavaScript",
+      icon: SiJavascript,
+    },
+    {
+      name: "C#",
+      icon: SiCsharp,
+    },
+    {
+      name: "Java",
+      icon: SiJava,
+    },
+    {
+      name: "TyeScript",
+      icon: SiTypescript,
+    },
+    {
+      name: "jQuery",
+      icon: SiJquery,
     },
     {
       name: "Node.js",
@@ -170,14 +192,6 @@ export const me = {
     {
       name: "MongoDB",
       icon: SiMongodb,
-    },
-    {
-      name: "C#",
-      icon: SiCsharp,
-    },
-    {
-      name: "Java",
-      icon: SiJava,
     },
     {
       name: "Python",
