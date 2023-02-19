@@ -81,9 +81,9 @@ export const me = {
   projects: [
     {
       name: "Library-Project",
-      description: "Web based library management system with most of the functionalities of an online library",
+      description: "Web based library management system with most of the functionalities of an online library.",
       contribution:
-        "This project was made with the objective to test my NodeJs knowledge whwn building projects.",
+        "This project was made with the objective to test my NodeJs knowledge when building projects.",
       technologies: ["HTML", "CSS", "Pug,js", "Bootstrap", "NodeJS", "ExpressJS", "MongoDB", "Mongoose"],
       links: [
         {
